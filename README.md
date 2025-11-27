@@ -10,7 +10,7 @@ This study integrated gene expression data, microRNA expression data, and protei
 * Based on these limitations, we sought to integrate multiple omics data from breast cancer to propose a new subtype that better explains prognostic differences than the existing PAM50 subtype.
   
 ### 2) MOFA2(Multi Omics Factor Analysis)
-* MOFA2 (Multi Omics Factor Analysis) is an unsupervised learning data integration framework that captures the variability across multiple omics data from the same sample to identify *latent factors*.
+* MOFA2(Multi Omics Factor Analysis) is an unsupervised learning data integration framework that captures the variability across multiple omics data from the same sample to identify *latent factors*.
 * These latent factors serve as compressed, low-dimensional interpretable representations of the multi-omics dataset, enabling subsequent analyses such as *clustering* and *feature selection*.
 * Each factor assigns weights to samples and features, representing complex data as a few large, easily understandable axes.
 ![mofa](https://github.com/user-attachments/assets/5e9cbab6-ab26-4fd7-a64f-00e60fd3da6c)
@@ -50,9 +50,9 @@ This study integrated gene expression data, microRNA expression data, and protei
 > 3. During training, 10-fold cross-validation was used to determine the optimal number of features for each omics dataset.
 * The circular plot allows for intuitive confirmation of which features show high expression in which groups and their associations with other omics features.
 * We focused on features in the network plot that showed strong correlations, with all three omics above 0.8.
-* We identified connections between ACKR1 (RNA-seq), PLK1 (Protein), and hsa-mir-301a/hsa-mir-210 (miRNA) at the feature marked with a red triangle (derived from features common to both omics). 
+* We identified connections between ACKR1(RNA-seq), PLK1(Protein), and hsa-mir-301a/hsa-mir-210(miRNA) at the feature marked with a red triangle(derived from features common to both omics). 
 * These features have been reported in previous breast cancer studies to be associated with prognosis. Consistent with prior research, ACKR1 expression was low and PLK1 and hsa-mir-301a, 210 expression was high in MOG2 and MOG3, which have poorer prognosis.
-* **These results indicate that the survival differences observed between MOG groups defined by MOFA2 reflect consistent biological differences at the molecular level, suggesting a multi-layered regulatory mechanism that is difficult to capture with a single omics approach. In conclusion, the analysis using DIABLO effectively demonstrates the characteristics of multi-omics and suggests that the association between ACKR1–PLK1–hsa-mir-301a (hsa-mir-210) could serve as a clinically useful indicator in multi-omics integrated studies related to breast cancer prognosis.**
+* **These results indicate that the survival differences observed between MOG groups defined by MOFA2 reflect consistent biological differences at the molecular level, suggesting a multi-layered regulatory mechanism that is difficult to capture with a single omics approach. In conclusion, the analysis using DIABLO effectively demonstrates the characteristics of multi-omics and suggests that the association between ACKR1, PLK1, hsa-mir-301a(hsa-mir-210) could serve as a clinically useful indicator in multi-omics integrated studies related to breast cancer prognosis.**
   
 ### 5) GSEA Anaylsis
 ![GSEA_C5](https://github.com/user-attachments/assets/8548b86f-79c8-4e89-8a5e-a96b98b96ab7)
