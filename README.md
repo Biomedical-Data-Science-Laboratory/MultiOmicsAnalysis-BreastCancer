@@ -67,3 +67,6 @@ This study integrated gene expression data, microRNA expression data, and protei
 * Signatures derived via DIABLO simultaneously identified features with high inter-omics correlations, presenting interpretable molecular networks.
 * This approach may provide practical insights for subtype reclassification or developing prognostic prediction markers in clinical contexts.
 
+## Data Availability
+* The data used in this study can be downloaded from [UCSC Xena](https://xenabrowser.net/datapages/).
+* Additionally, PAM50 subtype information can be obtained from the R package *TCGABiolinks*.
